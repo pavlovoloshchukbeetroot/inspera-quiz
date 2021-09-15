@@ -1,0 +1,53 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Paul Lucius Valor <paul.valor@icloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "source",
+    "test": "tests"
+  },
+  "files": [
+    "source",
+    "lib"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "parcel serve source/index.pug"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.1.8",
+    "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@shared/types": "^0.0.1",
+    "axios": "^0.21.1",
+    "components": "^0.1.0",
+    "dayjs": "^1.10.7",
+    "editorjs-blocks-react-renderer": "^1.1.1",
+    "framer-motion": "^4",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.1",
+    "redux": "^4.1.1",
+    "redux-persist": "^6.0.0",
+    "reselect": "^4.0.0",
+    "routes": "^2.1.0",
+    "services": "^0.0.3",
+    "store": "^2.0.12",
+    "types": "^0.0.1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Paul Lucius Valor <paul.valor@icloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "source/index.ts",
+  "directories": {
+    "source": "source",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "nodemon -r dotenv/config source/index.ts",
+    "build": "tsc",
+    "postinstall": "prisma generate",
+    "seed": "ts-node -e 'require(\"./prisma/seed.raw.ts\").seed()'",
+    "repopulate": "yarn run prisma migrate reset && yarn run seed"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "prisma": "^2.30.2",
+    "ts-node": "^10.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.30.3",
+    "@shared/types": "^0.0.1",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/morgan": "^1.9.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "editorjs-blocks-react-renderer": "^1.1.1",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "types": "^0.0.1"
+  }
+}

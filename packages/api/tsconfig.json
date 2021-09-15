@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.proto.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "files": [
+    "source/custom.d.ts"
+  ],
+  "include": [ 
+    "source/**/*", 
+    "prisma/**/*",
+    "tests/**/*" 
+  ]
+}

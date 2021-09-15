@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.proto.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "./source/",
+  },
+  "include": [ 
+    "source/**/*", 
+    "tests/**/*" 
+  ]
+}

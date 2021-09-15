@@ -1,0 +1,305 @@
+[
+  {
+    "type": "sinoption",
+    "answer": 0,
+    "description": [
+      {
+        "id" : "XPtKnSc6CJ",
+        "type" : "paragraph",
+        "data" : {
+          "text" : "What does CSS stand for?"
+        }
+      }
+    ],
+    "options": [
+      {
+        "value": 0,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "Cascading Style Sheets"
+            }
+          }
+        ]
+      },
+      {
+        "value": 1,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "Colorful Style Sheets"
+            }
+          }
+        ]
+      },
+      {
+        "value": 2,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "Creative Style Sheets"
+            }
+          }
+        ]
+      },
+      {
+        "value": 3,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "Computer Style Sheets"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "sinoption",
+    "answer": 2,
+    "description": [
+      {
+        "id" : "XPtKnSc6CJ",
+        "type" : "paragraph",
+        "data" : {
+          "text" : "What is the correct HTML for referring to an external style sheet?"
+        }
+      }
+    ],
+    "options": [
+      {
+        "value": 0,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;style src=&quot;mystyle.css&quot;&gt;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 1,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 2,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot;&gt;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 3,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "The W3C"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "sinoption",
+    "answer": 1,
+    "description": [
+      {
+        "id" : "XPtKnSc6CJ",
+        "type" : "paragraph",
+        "data" : {
+          "text" : "Which HTML tag is used to define an internal style sheet?"
+        }
+      }
+    ],
+    "options": [
+      {
+        "value": 0,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;css&gt;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 1,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;style&gt;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 2,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "&lt;script&gt;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "sinoption",
+    "answer": 3,
+    "description": [
+      {
+        "id" : "XPtKnSc6CJ",
+        "type" : "paragraph",
+        "data" : {
+          "text" : "Which is the correct CSS syntax?"
+        }
+      }
+    ],
+    "options": [
+      {
+        "value": 0,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "{body;color:black;}"
+            }
+          }
+        ]
+      },
+      {
+        "value": 1,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "body:color=black;"
+            }
+          }
+        ]
+      },
+      {
+        "value": 2,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "{body:color=black;}"
+            }
+          }
+        ]
+      },
+      {
+        "value": 3,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "body {color: black;}"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "sinoption",
+    "answer": 3,
+    "description": [
+      {
+        "id" : "XPtKnSc6CJ",
+        "type" : "paragraph",
+        "data" : {
+          "text" : "How do you display hyperlinks without an underline?"
+        }
+      }
+    ],
+    "options": [
+      {
+        "value": 0,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "a {decoration:no-underline;}"
+            }
+          }
+        ]
+      },
+      {
+        "value": 1,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "a {text-decoration:no-underline;}"
+            }
+          }
+        ]
+      },
+      {
+        "value": 2,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "a {underline:none;}"
+            }
+          }
+        ]
+      },
+      {
+        "value": 3,
+        "description": [
+          {
+            "id" : "XPtKnSc6CJ",
+            "type" : "paragraph",
+            "data" : {
+              "text" : "a {text-decoration:none;}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

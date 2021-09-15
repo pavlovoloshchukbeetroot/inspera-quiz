@@ -1,0 +1,5 @@
+export { NotFound } from "./NotFound"
+export { Login } from "./Login"
+export { Home } from "./Home"
+export { Quiz } from "./Quiz"
+export { List } from "./List"

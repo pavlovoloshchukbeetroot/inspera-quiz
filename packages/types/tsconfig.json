@@ -1,0 +1,4 @@
+{
+  "extends": "../../tsconfig.proto.json",
+  "include": [ "lib/**/*" ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@shared/types",
+  "version": "0.0.1",
+  "description": "Shared TS declarations",
+  "author": "Paul Lucius Valor <paul.valor@icloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/types.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
